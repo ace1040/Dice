@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 88%;
+    background-color: #041C32;
+}
+.heading{
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 200;
+    text-align: center;
+    color: #00A86B;
+    /* background-color: antiquewhite; */
+    font-weight: 200;
+}
+
+.heading img{
+    height: 8vh;
+    margin-left: 1rem;
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin-top: 2.6rem;
+    
+}
+
+.container__player1{
+    margin-right: 2rem;
+}
+
+.container img{
+    height: 20vh;
+    margin-top: .5rem;
+}
+.container__player1--part1{
+    font-size: 1.3rem;
+    text-align: center;
+    color: #00A86B;
+    font-family: 'Yellowtail', cursive;
+    
+}
+.container__player2--part2{
+    font-size: 1.3rem;
+    text-align: center;
+    color: #00A86B;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 200;
+
+}
+
+.btn{
+    display: block;
+    margin: 2rem auto;
+    padding: 0.5rem 1.5rem;
+    font-family: 'Yellowtail', cursive;
+    /* font-size: 1rem; */
+
+}
